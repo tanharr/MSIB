@@ -1,0 +1,49 @@
+list-hp {
+  display: block;
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+}
+
+list-hp > .placeholder {
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+smart-phone-item {
+  display: block;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+smart-phone-item .foto-hp {
+  width: 100%;
+  max-height: 750px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hp-info {
+  padding: 24px;
+}
+
+.hp-info > h2 {
+  font-weight:bolder;
+  text-align: center;
+  font-size: 48px;
+}
+
+.hp-info > p {
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 20; /* number of lines to show */
+}
